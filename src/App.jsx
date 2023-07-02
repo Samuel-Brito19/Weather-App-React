@@ -20,13 +20,16 @@ function App() {
         </div>
         <div className="bottom" >
           <div className="fells" >
-            <p>65°F</p>
+            <p className="bold" >65°F</p>
+            <p>Fells like</p>
           </div>
           <div className="humidity">
-            <p>20%</p>
+            <p className="bold">20%</p>
+            <p>Humidity</p>
           </div>
           <div className="winds">
-            <p>100km</p>
+            <p className="bold">100km</p>
+            <p>Wind speed</p>
           </div>
         </div>
       </div>
